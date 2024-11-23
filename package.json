@@ -1,0 +1,30 @@
+{
+  "name": "express-passport-google-oids-sqlite",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Express app to demo Google Open ID Connect login strategy using Passport.js",
+  "main": "www",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "connect-sqlite3": "^0.9.15",
+    "cookie-parser": "~1.4.7",
+    "debug": "~4.3.7",
+    "dotenv": "^16.4.5",
+    "ejs": "~3.1.10",
+    "express": "~4.21.1",
+    "express-session": "^1.18.1",
+    "http-errors": "~2.0.0",
+    "mkdirp": "^3.0.1",
+    "morgan": "~1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oidc": "^0.1.0",
+    "pluralize": "^8.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
