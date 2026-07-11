@@ -20,7 +20,7 @@
     "express-session": "^1.18.1",
     "http-errors": "~2.0.0",
     "mkdirp": "^3.0.1",
-    "morgan": "~1.10.0",
+    "morgan": "~1.11.0",
     "passport": "^0.7.0",
     "passport-google-oidc": "^0.1.0",
     "pluralize": "^8.0.0",
